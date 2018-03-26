@@ -1,0 +1,20 @@
+{
+  "name": "sitrel-cic-mock",
+  "version": "1.0.0",
+  "description": "Web Server que entrega una API para simular la comunicación entre Sitrel CS y Sitrel CIC (web server bridge para Discador CIC)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test ./test/chai/test_helper.js --recursive"
+  },
+  "author": "Patricio Cornejo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "immutable": "^3.8.2"
+  },
+  "devDependencies": {
+    "chai": "3.0.0",
+    "chai-immutable": "^1.6.0",
+    "mocha": "^5.0.5"
+  }
+}
